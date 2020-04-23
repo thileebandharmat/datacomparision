@@ -1,3 +1,4 @@
+# Copyright (C) 2020 Thileeban Dharma <thileebandharma@gmail.com>
 import os
 import time
 from source_to_dataframe import SrcToDataframe as sd
