@@ -1,3 +1,4 @@
+# Copyright (C) 2020 Thileeban Dharma <thileebandharma@gmail.com>
 import pandas as pd
 import json
 import pyodbc
