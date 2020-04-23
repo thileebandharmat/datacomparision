@@ -1,3 +1,5 @@
+# Copyright (C) 2020 Thileeban Dharma <thileebandharma@gmail.com>
+
 from source_to_dataframe import SrcToDataframe as sd
 from user_input import UserInput as uip
 from data_comparision import DataComparision as dc
