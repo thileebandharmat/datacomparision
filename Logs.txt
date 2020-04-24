@@ -1,0 +1,85 @@
+F:\xxxxxx\python\Data_Comparator\venv\Scripts\python.exe F:/xxxxxx/xxxxxx/Data_Comparator/__main__.py
+Select the Source 1 type
+Select the source type 
+ 1. csv file 
+ 2. Database 
+ 3. Json 
+ 4. Xml 
+ 5. Others 
+1
+Enter the Absolute path of the csv file: F:\xxxxxx\python\\Input_data_1.csv
+User given source path is:  F:\xxxxxx\python\\Input_data_1.csv
+Started reading source csv file.,
+   pk_1  pk_2  pk_3   pk_4       pk_5  data_1   data_2
+0   215  1054    75  11179  129660452      -1    -0.01
+1   215  1034    75  11179  129660437      -1    -0.01
+2   215  1054    75  11179  129660437      -1    -0.01
+3   235  1403    81  12160  140463753       2  1019.55
+4   235  1403    81  12160  140463795       3  2161.19
+Select the Source 2 type
+Select the source type 
+ 1. csv file 
+ 2. Database 
+ 3. Json 
+ 4. Xml 
+ 5. Others 
+1
+Enter the Absolute path of the csv file: F:\xxxxxx\python\\Data_2.csv
+User given source path is:  F:\xxxxxx\python\\Data_2.csv
+Started reading source csv file.,
+   pk_1  pk_2  pk_3   pk_4       pk_5  data_1   data_2
+0   215  1054    75  11179  129660452      -1    -0.01
+1   215  1034    75  11179  129660437      -1    -0.01
+2   215  1054    75  11179  129660437      -1    -0.01
+3   235  1403    81  12160  140463753       2  1019.55
+4   235  1403    81  12160  140463795       3  2161.19
+Datatype check in progress.,
+Source 1 Datatypes: 
+pk_1        int64
+pk_2        int64
+pk_3        int64
+pk_4        int64
+pk_5        int64
+data_1      int64
+data_2    float64
+dtype: object
+Source 2 Datatypes: 
+pk_1        int64
+pk_2        int64
+pk_3        int64
+pk_4        int64
+pk_5        int64
+data_1      int64
+data_2    float64
+dtype: object
+Datatype matching between Source and Target.,
+Datatype check completed.,
+Number of columns check in progress
+Number of columns in source1:  7
+Number of columns in source1:  7
+Number of columns matches between source1 and source 2
+Compared number of columns
+Enter the primary key from source_1 in the following format pk_column1,pk_column2,pk_column_n 
+
+Note: Primary keys to be comma separated, kinldy don't include unnecessary space between the keys 
+
+pk_1,pk_2,pk_3,pk_4,pk_5
+Enter the Absolute path where you want test results: ex: D:\python\newfolder\: F:\xxxxxxx\python\Tool development
+F:\xxxxxxx\python\Tool development20200424_110618
+Started identifying extra records in source file 1
+Saved the extra records in source file 1
+Started identifying extra records in source file 2
+Saved the extra records in source file 1
+Started loading report with Primary index match and data mismatch
+Completed loading report with Primary index match and data mismatch
+Started loading report with both Primary index and data match
+Completed loading report with both Primary index and data match
+Started preparing Summary report
+Completed loading Summary report
+Started loading column wise mismatch report
+Completed loading column wise mismatch report
+Started loading column wise match report
+Completed loading column wise match report
+Done
+
+Process finished with exit code 0
